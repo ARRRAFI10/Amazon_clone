@@ -1,4 +1,4 @@
-/* checkout.css */
+
 
 @keyframes blink {
   0% {
@@ -14,7 +14,7 @@
 
 .checkout h2,
 .checkout h3 {
-  animation: blink 1s infinite; /* Adjust the time as needed */
+  animation: blink 1s infinite; 
 }
 .checkout__ad {
   width: 100px;
