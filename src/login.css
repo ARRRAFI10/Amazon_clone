@@ -1,0 +1,38 @@
+.login__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20 px;
+}
+.container {
+  width: 300px;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.container > form > h5 {
+  margin-bottom: 5px;
+}
+.container > form > input {
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: white;
+  width: 98%;
+}
+.container > p {
+  margin-top: 15px;
+  font-size: 10px;
+}

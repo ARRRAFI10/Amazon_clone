@@ -1,0 +1,20 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(241, 237, 237);
+  border: 1px solid;
+  border-radius: 3px;
+  justify-content: center;
+  margin-right: 5px;
+}
+.subtotal > button
+{
+    background-color: burlywood;
+    margin-top: 20 px;
+    height: 30px;
+
+
+}
