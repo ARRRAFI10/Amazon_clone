@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { useStateValue } from './StateProvider';
@@ -20,11 +18,11 @@ function CheckoutProduct({ id, title, image, price, rating }) {
       <div className="checkoutProduct__imageContainer">
         <img className="checkoutProduct__image" src={image} alt="" />
       </div>
-      <div className="checkoutProduct__info">
-        <p className="checkoutProduct__title">{title}</p>
+      <div className="checkoutProduct__details">
+        <p className="checkoutProduct__title">{title}</p><br />
         <p className="checkoutProduct__price">
-          <small>BDT</small>
-          <strong>{price}</strong>
+          <small>BDT </small>
+          <strong>{price}</strong><br />
         </p>
         <div className="product__rating">
           {Array(rating)
@@ -33,6 +31,7 @@ function CheckoutProduct({ id, title, image, price, rating }) {
               <FaStar key={index} color="gold" />
             ))}
         </div>
+        <br />
         <button onClick={removeFromCart}>Remove from Cart</button>
       </div>
     </div>

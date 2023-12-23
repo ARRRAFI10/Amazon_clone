@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { useStateValue } from './StateProvider';
-import amazonLogo from './amazon.png';
-import carticon from './cart.png';
+import carticon from './cartnew30.png';
 import "./header.css";
+import amazonLogob from './logo.jpg';
 import searchicon from './search_icon.png';
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
       <Link to="/">
       <img
         className="header__logo"
-        src={amazonLogo}
+        src={amazonLogob}
         alt=""
       />
       </Link>
